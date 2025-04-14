@@ -87,6 +87,16 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+#imagemHome{
+    width: 30vw;
+    height: 100vh;
+    background-image: url(media/imagens/FotoHome.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;	
 }
 
 #home #containerHome #textoHome .tituloSuperior{
