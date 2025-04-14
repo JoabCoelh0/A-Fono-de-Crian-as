@@ -71,6 +71,7 @@ html{
     justify-content: space-around;
     align-items: center;
     max-width: 1600px;
+    margin: auto;
 }
 
 #home #containerHome #textoHome, #imagemHome{
@@ -92,7 +93,7 @@ html{
 
 #imagemHome{
     width: 30vw;
-    height: 100vh;
+    height: 91vh;
     background-image: url(media/imagens/FotoHome.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -105,7 +106,7 @@ html{
 }
 
 #home #containerHome #textoHome h1{
-    font-size: 4em;
+    font-size: 3.5em;
     letter-spacing: 3px;
     color: var(--color-principal);
 }
@@ -146,8 +147,7 @@ html{
 /*Animation Slid*/
 #sobre{
     display: flex;
-    width: 100%;
-
+    width: 100%;  
 }
 
 #slideFotos {
@@ -178,27 +178,29 @@ html{
   }
 
 
-#sobre  #conteinerSobre{
-    
-}
-
 #sobre  #conteinerSobre #textoSobre{
-    width: 50%;
+    width: 50%;  
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--font-principal);
+    padding: 100px 0;
 } 
   
 
 /*Areas de Textos do sobre */
 #sobre #conteinerSobre #textoSobre #textos{
-    width: 75%;
-    height: 75%;
     display: flex;
-    align-items: start;
-    justify-content: space-around;
-    flex-direction: column;
+  
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  min-height: 93vh;
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+    
 
 }
 
