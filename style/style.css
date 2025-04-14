@@ -66,42 +66,48 @@ html{
     justify-content: center;
 }
 
-#home #textoHome, #imagemHome{
-    width: 40%;
-    height: 91vh;
+#home #containerHome, #conteinerSobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px;
 }
-#home #textoHome{
+
+#home #containerHome #textoHome, #imagemHome{
+    width: 40%;
+}
+#home #containerHome #textoHome{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     font-family: var(--font-principal);
 }
-#home #imagemHome{
+#home #containerHome #imagemHome{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#home #textoHome .tituloSuperior{
+#home #containerHome #textoHome .tituloSuperior{
     font-size: 1.1em;
     color: var(--color-terceira);
 }
 
-#home #textoHome h1{
+#home #containerHome #textoHome h1{
     font-size: 4em;
     letter-spacing: 3px;
     color: var(--color-principal);
 }
 
-#home #textoHome .subTexto{
+#home #containerHome #textoHome .subTexto{
     font-size: 1.1em;
     color: var(--color-terceira);
 }
 
 /*Estilização de Botão de chamada do Home*/
 
-#home #textoHome a button{
+#home #containerHome #textoHome a button{
     margin-top: 15px;
     width: 240px;
     height: 50px;
@@ -112,13 +118,13 @@ html{
     
 }
 
-#home #textoHome a button{
+#home #containerHome #textoHome a button{
     text-decoration: none;
     color: var(--color-terceira);
 }
 
 
-#home #textoHome a button:hover{
+#home #containerHome #textoHome a button:hover{
     background-color: var(--color-principal);
     color: white;
     transition: 0.4s;
@@ -131,7 +137,7 @@ html{
 #sobre{
     display: flex;
     width: 100%;
-    height: 100vh;
+
 }
 
 #slideFotos {
@@ -161,7 +167,12 @@ html{
     z-index: 1;
   }
 
-#sobre #textoSobre{
+
+#sobre  #conteinerSobre{
+    
+}
+
+#sobre  #conteinerSobre #textoSobre{
     width: 50%;
     display: flex;
     align-items: center;
@@ -171,7 +182,7 @@ html{
   
 
 /*Areas de Textos do sobre */
-#sobre #textoSobre #textos{
+#sobre #conteinerSobre #textoSobre #textos{
     width: 75%;
     height: 75%;
     display: flex;
@@ -181,16 +192,16 @@ html{
 
 }
 
-#sobre #textoSobre #textos span{
+#sobre  #conteinerSobre #textoSobre #textos span{
     color: var(--color-quertenario);
 }
 
-#sobre #textoSobre #textos h1{
+#sobre  #conteinerSobre #textoSobre #textos h1{
     font-size: 2.2em;
     color: var(--color-terceira);
 }
 
-#sobre #textoSobre #textos div{
+#sobre  #conteinerSobre #textoSobre #textos div{
     width: 150px;
     height: 30px;
     border-radius: 15px;
@@ -202,16 +213,16 @@ html{
     
 }
 
-#sobre #textoSobre #textos p{
+#sobre  #conteinerSobre #textoSobre #textos p{
     font-size: 1.1em;
 }
 
-#sobre #textoSobre #textos h3{
+#sobre  #conteinerSobre #textoSobre #textos h3{
     color: var(--color-terceira);
 }
 
 
-#sobre #textoSobre #textos a button{
+#sobre  #conteinerSobre #textoSobre #textos a button{
     height: 50px;
     width: 320px;
     border-radius: 25px;
@@ -225,7 +236,7 @@ html{
 
 /*Estilização de Botão de Download de CV*/
 
-#sobre #textoSobre #textos a button:hover{
+#sobre  #conteinerSobre #textoSobre #textos a button:hover{
     background-color: var(--color-secundaria);
     color: var(--color-principal);
     border: 1px solid var(--color-principal);
@@ -237,7 +248,6 @@ html{
 
 #especialidades{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: var(--font-principal);
@@ -380,7 +390,6 @@ html{
 #testemunhos{
     font-family: var(--font-principal);
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -417,7 +426,7 @@ html{
 
 #testemunhos #containerComentarios #comentarios{
     width: 70%;
-    height: 70%;
+    height: 90%;
     margin: auto;
     display: flex;
     align-items: top;
@@ -437,8 +446,8 @@ html{
     border-radius: 35px 35px 0px 35px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
-    width: 500px;
-    height: 289px;
+    width: 35%;
+    height: 40%;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -485,7 +494,7 @@ html{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url(media/imagens/slide2.jpg);
+    background-image: url(media/icones/icone-perfil.webp);
     background-position: center;
     background-size: cover;
     outline: 8px solid var(--color-quertenario);
