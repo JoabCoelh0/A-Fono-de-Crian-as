@@ -1,0 +1,83 @@
+#duvidas{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 5vh 0;
+}
+
+#duvidas #containerPrincipal{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+#duvidas #containerPrincipal #containerEsquerda{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    padding: 5vh 0;
+    align-items: left;
+    justify-content: top;
+    flex-direction: column;
+}
+
+#duvidas #containerPrincipal #containerEsquerda h1{
+    font-size: 2.5em;
+    color: var(--color-quinto);
+    font-family: var(--font-principal);
+    font-weight: 500;
+}
+#duvidas #containerPrincipal #containerEsquerda h1 span{
+    font-size: 1em;
+    color: var(--color-principal);
+    font-weight: 600;
+    font-family: var(--font-principal);
+}
+
+#duvidas #containerPrincipal #containerEsquerda span{
+    font-size: 1.1em;
+    color: var(--color-quintenario);
+    font-family: var(--font-principal);
+    margin-top: 15px;
+}
+
+#duvidas #containerPrincipal #containerEsquerda span a{
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: 400;
+}
+
+#duvidas #containerPrincipal #containerDireita{
+    width: 70%;
+    height: 100%;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: end;
+}
+
+#duvidas #containerPrincipal #containerDireita #duvidas{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+}
+
+#duvidas #containerPrincipal #containerDireita #duvidas details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#duvidas #containerPrincipal #containerDireita #duvidas details p{
+    font-size: 1em;
+    color: var(--color-quintenario);
+    font-weight: 400;
+    margin-top: 15px;
+}

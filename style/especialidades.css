@@ -1,0 +1,139 @@
+#especialidades{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-principal);
+}
+
+#especialidades #HeaderEspeci{
+    display: flex;
+    height: 25%;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    padding: 5vh 0;
+}
+
+#especialidades #HeaderEspeci span{
+    font-size: 1.1em;
+    color: var(--color-principal);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#especialidades #HeaderEspeci h1{
+    font-size: 2em;
+    width: 40%;
+    text-align: center;
+    
+}
+
+
+#especialidades #especi{
+    width: 100%;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#especialidades #especi #ariaDeEspecialidades{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#especialidades #especi #ariaDeEspecialidades #icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+#especialidades #especi #ariaDeEspecialidades #icon span{
+    font-size: 50px;
+    color: white;
+    color: white;
+}
+ 
+
+#especialidades #especi #ariaDeEspecialidades #textos h3{
+    font-size: 1.54em;
+}
+
+#especialidades #especi #ariaDeEspecialidades #textos p{
+    font-size: 1em;
+}
+
+
+/*animação do card*/
+@keyframes animacaoCard {
+    
+    0%{
+        
+         
+    } 100% {
+        background-color:  var(--color-principal);
+        color: var(--color-secundaria);
+    }
+
+    
+}
+
+
+#especialidades #especi #ariaDeEspecialidades:hover{
+    cursor: pointer;
+    animation: animacaoCard 0.5s;
+    animation-fill-mode:forwards
+}
+#especialidades #especi #ariaDeEspecialidades:hover #icon span{
+    background-color: var(--color-secundaria);
+    color: var(--color-principal);
+    padding: 4px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+/*Estilização do footer da Especialidades*/
+
+#footEspecialidades{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 0;
+}
+
+
+#footEspecialidades a button{
+    width: 238px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--color-principal);
+    font-size: 1em;
+    color: white;  
+    margin-top: 15px;  
+}
+
+#footEspecialidades a button:hover{
+    background-color: white;
+    color: var(--color-principal);
+    border: 1px solid var(--color-principal);
+    transition: 0.8s;
+    cursor: pointer;
+    font-weight: 500;
+
+}
