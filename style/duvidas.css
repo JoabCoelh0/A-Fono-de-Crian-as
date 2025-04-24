@@ -73,6 +73,7 @@
     font-size: 1.2em;
     font-weight: 600;
     cursor: pointer;
+    font-family: var(--font-principal);
 }
 
 #duvidas #containerPrincipal #containerDireita #duvidas details p{
@@ -80,4 +81,5 @@
     color: var(--color-quintenario);
     font-weight: 400;
     margin-top: 15px;
+    padding: 0 20px;
 }
