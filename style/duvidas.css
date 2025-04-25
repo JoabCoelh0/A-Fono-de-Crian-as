@@ -74,6 +74,7 @@
     font-weight: 600;
     cursor: pointer;
     font-family: var(--font-principal);
+    padding: 20px 0;
 }
 
 #duvidas #containerPrincipal #containerDireita #duvidas details p{

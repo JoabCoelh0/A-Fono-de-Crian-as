@@ -8,3 +8,9 @@
     --color-quertenario: #6d8ff6;
     --color-quinto: #000000;
 }
+
+html {
+   scrollbar-width: thin;
+   scrollbar-color: var(--color-principal) var(--color-secundaria);
+   scroll-behavior: smooth;
+  }
