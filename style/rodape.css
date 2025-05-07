@@ -14,7 +14,7 @@
   align-items: end;
   flex-wrap: wrap;
   padding: 30px;
-  padding: 5em 0;
+  padding: 5rem 0;
   font-family: var(--font-principal);
 }
 
@@ -23,7 +23,7 @@
 }
 #containerRodape #containerEsquerdaRodape > h1{
 
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 500;
 }
 
