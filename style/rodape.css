@@ -33,15 +33,44 @@
   height: 100%;
 }
 
-
+/*Estilização direita footer*/
 #containerDireitaRodape{
   width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#rodape #containerRodape #containerDireitaRodape #linksRodape ul{
+  list-style: none;
+  columns: 2;
+  
+}
+
+#rodape #containerRodape #containerDireitaRodape #linksRodape ul li{
+  text-decoration: none;
+  
+}
+
+#rodape #containerRodape #containerDireitaRodape #linksRodape ul li a{
+  text-decoration: none;;
+  font-weight: 400;
+  color: var(--color-terceira);
+
+  &:hover{
+    color: black;
+  }
+}
+#rodape #containerRodape #containerDireitaRodape #enderecoRodape > p{
+  color: var(--color-terceira);
+  font-weight: 400;
 }
 
 #containerRedesSociais{
   border-top: solid 1px var(--color-principal);
   width: 100%;  
-  padding: 30px;
+  padding: 30px 0;
+  font-family: var(--font-principal);
 }
 
 #containerRedesSociais #container-footer{
@@ -50,4 +79,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#containerRedesSociais #container-footer #iconesRedesSociais{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  font-size: 20px;
+}
+
+#containerRedesSociais #container-footer #iconesRedesSociais a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  &:hover{
+    color: var(--color-principal);
+    font-size: large
+    
+  }
 }
