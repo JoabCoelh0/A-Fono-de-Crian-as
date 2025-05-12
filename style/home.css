@@ -90,18 +90,18 @@
 }
 
 #home #containerHome #textoHome .tituloSuperior{
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: var(--color-terceira);
 }
 
 #home #containerHome #textoHome h1{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     letter-spacing: 3px;
     color: var(--color-principal);
 }
 
 #home #containerHome #textoHome .subTexto{
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: var(--color-terceira);
 }
 

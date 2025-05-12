@@ -1,89 +1,15 @@
-/* Estilos para telas menores que 768px (dispositivos móveis) */
-@media (max-width: 768px) {
-    #cabecalho {
-        height: auto;
-        padding: 10px;
+@media (min-width: 1440) {
+ 
+    #home #containerHome #textoHome .tituloSuperior{
+        font-size: 1rem;
     }
-
-    #botoesMenu ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #botoesMenu ul li {
-        margin: 10px 0;
-    }
-
-    #home #containerHome {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #home #containerHome #textoHome, 
-    #home #containerHome #imagemHome {
-        width: 100%;
-    }
-
-    #imagemHome {
-        height: 50vh;
-        background-size: cover;
-    }
-
-    #sobre #conteinerSobre {
-        flex-direction: column;
-    }
-
-    #sobre #conteinerSobre #textoSobre, 
-    #sobre #conteinerSobre #slideFotos {
-        width: 100%;
-    }
-
-    #especialidades #especi {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #especialidades #especi #ariaDeEspecialidades {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-
-    #testemunhos #containerComentarios {
-        flex-direction: column;
-        overflow-x: hidden;
-    }
-
-    #testemunhos #containerComentarios #comentarios {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #testemunhos #containerComentarios #comentarios #comentario {
-        width: 90%;
-        margin: 20px 0;
-    }
-}
-
-/* Estilos para telas menores que 480px (dispositivos muito pequenos) */
-@media (max-width: 480px) {
-    h1, h3, p, span {
-        font-size: smaller;
-    }
-
     #home #containerHome #textoHome h1 {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
-    #especialidades #HeaderEspeci h1 {
-        font-size: 1.5em;
-    }
 
-    #especialidades #especi #ariaDeEspecialidades {
-        width: 100%;
-    }
-
-    #footEspecialidades a button {
-        width: 200px;
-        height: 40px;
+    /*duvidas*/
+    #duvidas #containerPrincipal #containerEsquerda h1 {
+        font-size: 2.4rem;
     }
 }

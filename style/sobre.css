@@ -63,7 +63,7 @@
 }
 
 #sobre  #conteinerSobre #textoSobre #textos h1{
-    font-size: 2.2em;
+    font-size: 2.2rem;
     color: var(--color-terceira);
 }
 
@@ -80,7 +80,7 @@
 }
 
 #sobre  #conteinerSobre #textoSobre #textos p{
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 #sobre  #conteinerSobre #textoSobre #textos h3{
@@ -94,7 +94,7 @@
     border-radius: 25px;
     border: none;
     background-color: var(--color-principal);
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: white;
     cursor: pointer;
 }
