@@ -1,0 +1,151 @@
+@media (max-width: 1440px) {
+
+    /*RESPONSIVIDADE DA ÁRIA HOME*/
+    #home #containerHome #textoHome .tituloSuperior{
+        font-size: 1rem;
+    }
+    #home #containerHome #textoHome h1{
+        font-size: 3rem;
+    }
+
+    #home #containerHome #textoHome .subTexto{
+        font-size: 1rem;
+    }
+
+
+    /*ESTILIZAÇÃO ESPECIALIDADES*/
+
+    #especialidades #especi #ariaDeEspecialidades #textos h3{
+        font-size: 1.3rem;
+    }
+
+    #especialidades #especi #ariaDeEspecialidades #textos p{
+        font-size: 0.9rem;
+    }
+
+
+    /*DUVIDAS*/
+
+    #duvidas #containerPrincipal #containerEsquerda h1{
+        font-size: 2.4rem;
+    }
+
+    #duvidas #containerPrincipal #containerEsquerda span{
+        font-size: 1rem;
+    }
+
+    #duvidas #containerPrincipal #containerDireita #duvidas details{
+        font-size: 1.1rem;
+    }
+
+
+    /*CONTATO*/
+
+    #contato #containerContato #containerEsquerdaContato #containertextos h1{
+        font-size: 2.1rem;
+    }
+
+    #contato #containerContato #containerEsquerdaContato #containertextos p{
+        font-size: 1.1rem;
+    }
+
+
+    #contato #containerContato #containerDireitaContato .imagemContato{
+        height: 105%;
+        width: 105%;
+    }
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+    #botoesMenu{
+        width: 90%;
+    }
+
+    #botoesMenu ul{
+        display:none;
+    }
+
+    #cabecalho #botoesMenu #menuHamburguer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+
+    #cabecalho #botoesMenu #menuHamburguer i{
+        display: flex;
+        color: var(--color-principal);
+        font-size: 25px;
+        
+    }
+
+    #home #containerHome #textoHome .tituloSuperior{
+        font-size: 0.9rem;
+    }
+    #home #containerHome #textoHome h1{
+        font-size: 2.5rem;
+    }
+
+    #home #containerHome #textoHome .subTexto{
+        font-size: 0.9rem;
+    }
+
+    #home #containerHome #textoHome a button{
+        width: 228px;
+        height: 40px;
+    }
+
+
+
+    #sobre #conteinerSobre #textoSobre #textos h1{
+        font-size: 2rem;
+    }
+
+    #sobre #conteinerSobre #textoSobre #textos div{
+        width: 142.5px;
+        height: 28.5px;
+        font-size: 0.9rem
+    }
+
+    #sobre #conteinerSobre #textoSobre #textos p{
+        font-size: 0.9rem;
+    }
+
+    #sobre #conteinerSobre #textoSobre #textos h3{
+        font-size: 1rem;
+    }
+
+
+    #sobre #conteinerSobre #textoSobre #textos a button{
+        width: 304px;
+        height: 47.5px;
+    }
+
+
+    /*ESPECIALIDADES*/
+
+    #especialidades #HeaderEspeci span{
+        font-size: 0.9rem;
+    }
+
+    #especialidades #HeaderEspeci h1{
+        font-size: 1.4rem;
+    }
+
+    #especialidades #especi{
+        flex-direction: column;
+    }
+
+    #especialidades #especi #ariaDeEspecialidades{
+        width: 40%;
+    }
+
+
+    #footEspecialidades{
+        font-size: 0.9rem;
+    }
+}

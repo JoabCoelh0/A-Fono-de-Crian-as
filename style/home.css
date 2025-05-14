@@ -10,6 +10,10 @@
 
 /*Estilização de Cabeçalho */
 
+#cabecalho #botoesMenu #menuHamburguer{
+    display: none;
+}
+
 
 #cabecalho{
     width: 100%;
