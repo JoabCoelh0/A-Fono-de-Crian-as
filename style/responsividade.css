@@ -195,4 +195,45 @@
         width: 90%;
         height: 50vh;
    }
+
+
+
+   /*sobre*/
+   #conteinerSobre{
+        width: 90%;
+        flex-direction: column;
+   }
+
+   #sobre #conteinerSobre #textoSobre #textos div{
+    margin: 0 auto ;
+   }
+
+
+   #sobre #conteinerSobre #textoSobre{
+        width: 90%;
+        text-align: center;
+        padding: 50px 0;
+   }
+
+   #slideFotos{
+        display: none;
+   }
+
+   /*especialidades*/
+
+   #especialidades #HeaderEspeci   {
+    width: 90%;
+   }
+
+   #especialidades #HeaderEspeci h1 {
+    width: 90%;
+   }
+
+   #especialidades #especi #ariaDeEspecialidades{
+    width: 90%;
+   }
+
+   #footEspecialidades{
+    text-align: center;
+   }
 }
