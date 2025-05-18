@@ -180,7 +180,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 431px) {
    #home #containerHome{
         flex-direction: column;
    }
