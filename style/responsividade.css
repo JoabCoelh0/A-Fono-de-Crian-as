@@ -204,8 +204,12 @@
         flex-direction: column;
    }
 
+   #sobre #conteinerSobre #textoSobre #textos p{
+        font-size: 1rem;
+   }
+
    #sobre #conteinerSobre #textoSobre #textos div{
-    margin: 0 auto ;
+        margin: 5vh auto ; 
    }
 
 
@@ -219,21 +223,33 @@
         display: none;
    }
 
+
+   #sobre #conteinerSobre #textoSobre #textos a button{
+        width: 90%;
+
+   }
+
+   #sobre #conteinerSobre #textoSobre #textos > a{
+        margin: 5vh 0;
+    }
+
    /*especialidades*/
 
    #especialidades #HeaderEspeci   {
-    width: 90%;
+        width: 90%;
    }
 
    #especialidades #HeaderEspeci h1 {
-    width: 90%;
+        width: 90%;
    }
 
    #especialidades #especi #ariaDeEspecialidades{
-    width: 90%;
+        width: 90%;
    }
 
    #footEspecialidades{
-    text-align: center;
+        text-align: center;
    }
+
+   
 }
