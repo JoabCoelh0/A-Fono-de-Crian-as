@@ -251,5 +251,48 @@
         text-align: center;
    }
 
-   
+
+   /*feedbacks*/
+
+   #headerTestemunhos h1{
+        width: 90%;
+        font-size: 1.5rem;
+   }    
+   #headerTestemunhos span{
+        font-size: 0.9rem;
+   }
+
+   #testemunhos #containerComentarios #comentarios #comentario{
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+   }
+
+
+   #duvidas #containerPrincipal{
+        width: 90%;
+        flex-direction: column;
+   }
+
+   #duvidas #containerPrincipal #containerEsquerda{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+   }
+
+   #duvidas #containerPrincipal #containerEsquerda span{
+    text-align: left;
+    padding: 5vh 0;
+   }
+
+
+   #duvidas #containerPrincipal #containerDireita{
+        width: 100%;
+        padding: 0;
+   }
+
+   #duvidas #containerPrincipal #containerDireita #duvidas{
+        width: 100%;
+        padding: 0;
+   }
 }
