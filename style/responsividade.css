@@ -147,5 +147,52 @@
 
     #footEspecialidades{
         font-size: 0.9rem;
+    }  
+
+
+    /*FEEDBACKS*/
+
+    #headerTestemunhos h1{
+        font-size: 1.9rem;
     }
+
+    #testemunhos #containerComentarios{
+        padding: 5vh 0;
+    }
+    
+    #testemunhos #containerComentarios #comentarios #comentario{
+        width: 50%;
+    }
+
+
+
+    /*RODAPÉ*/
+
+    #containerRodape{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    #containerRedesSociais #container-footer{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 375px) {
+   #home #containerHome{
+        flex-direction: column;
+   }
+
+   #home #containerHome #textoHome{
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        
+   }
+   #home #containerHome #imagemHome{
+        width: 90%;
+        height: 50vh;
+   }
 }
